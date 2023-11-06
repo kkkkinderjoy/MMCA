@@ -1,0 +1,19 @@
+.fullsection{border-top: 1px solid #000; position: relative; padding: 40px 0 99px;}
+.fullsection .title{margin-bottom: 40px;}
+.fullsection .title h3{display: inline-block; font-weight: 600; font-size: 28px;}
+.fullsection .title .tablist{position: absolute; top: 40px; left: 50%; transform: translateX(-50%); margin-bottom: 45px;}
+.fullsection .title ul{display: flex; align-items: center;}
+.fullsection .title ul li{padding: 0 15px;}
+.fullsection .title ul li a{font-size: 28px; color: #949494; font-weight: 600; text-align: center; transition: color 0.2s; border-bottom: 3px solid #fff;}
+.fullsection .title ul li:nth-child(1) a{color: #000; border-bottom: 1px solid #000;}
+.fullsection .more a{position: absolute; top: 58px; right: 0; font-size: 15px;}
+.fullsection .more a i{margin-top: -1px; margin-left: 8px; width: 4px; height: 8px; background: url("/public/images/icon_btnMore.svg") no-repeat 0 0; background-size: 100%; display: inline-block;}
+.fullsection .swiper{position: relative;}
+.fullsection .swiper .swiper-wrapper{position: relative; width: 1600px; margin: 0 auto; overflow: hidden;}
+.fullsection .swiper-slide{width: 453px; margin-right: 44px; max-width: 400px; height: 100%; position: relative;}
+.fullsection .swiper-slide .box{border-bottom: 1px solid #000; max-width: 600px; }
+.fullsection .swiper-slide .box img{width: 100%; height: 100%;}
+.fullsection .swiper-slide .info{position: relative; margin-top: 25px; text-align: left;}
+.fullsection .swiper-slide .info span:nth-of-type(1){font-weight: 600; width: 80%; font-size: 15px;}
+.fullsection .swiper-slide .info span:nth-of-type(2){font-size: 15px; font-weight: 600; margin-top: 10px; color: #949494;}
+.fullsection .swiper-slide .info p{font-size: 28px; font-weight: 600; margin-top: 10px;}
