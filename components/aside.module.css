@@ -1,0 +1,37 @@
+.btnsmart{
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 61px;
+    height: 110px;
+    background-image: url('/public/images/icon_smartSearch.png');
+    background-repeat: no-repeat;
+    background-position: top 15px center;
+    background-size: 26px;
+    border-radius: 50px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    z-index: 10;
+    color: #fff;
+    font-weight: 600;
+    padding: 35px 0 0 0;
+    animation: colorChange 20s infinite ease;
+    border: 1px solid #000;
+}
+
+
+.btnTop{
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    background: #fff url('/public/images/btn_top.png') no-repeat center center;
+    transition: all .3s ease;
+    text-indent: -9999px;
+    
+}
